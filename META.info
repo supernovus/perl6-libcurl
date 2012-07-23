@@ -1,0 +1,7 @@
+{
+  "name"        : "WWW::Curl",
+  "version"     : "*",
+  "description" : "Perl 6 bindings for libcurl",
+  "depends"     : [ "NativeCall" ],
+  "source-url"    : "git://github.com/supernovus/perl6-libcurl.git"
+}
