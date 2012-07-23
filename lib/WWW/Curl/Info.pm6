@@ -1,0 +1,58 @@
+## Curl Info
+
+use v6;
+
+module WWW::Curl::Info;
+
+sub CURLINFO_TEXT is export { 0 }
+sub CURLINFO_HEADER_IN is export { 1 }
+sub CURLINFO_HEADER_OUT is export { 2 }
+sub CURLINFO_DATA_IN is export { 3 }
+sub CURLINFO_DATA_OUT is export { 4 }
+sub CURLINFO_SSL_DATA_IN is export { 5 }
+sub CURLINFO_SSL_DATA_OUT is export { 6 }
+sub CURLINFO_END is export { 7 }
+sub CURLINFO_NONE is export { 8 }
+sub CURLINFO_EFFECTIVE_URL is export { 0x100000 + 1 }
+sub CURLINFO_RESPONSE_CODE is export { 0x200000 + 2 }
+sub CURLINFO_TOTAL_TIME is export { 0x300000 + 3 }
+sub CURLINFO_NAMELOOKUP_TIME is export { 0x300000 + 4 }
+sub CURLINFO_CONNECT_TIME is export { 0x300000 + 5 }
+sub CURLINFO_PRETRANSFER_TIME is export { 0x300000 + 6 }
+sub CURLINFO_SIZE_UPLOAD is export { 0x300000 + 7 }
+sub CURLINFO_SIZE_DOWNLOAD is export { 0x300000 + 8 }
+sub CURLINFO_SPEED_DOWNLOAD is export { 0x300000 + 9 }
+sub CURLINFO_SPEED_UPLOAD is export { 0x300000 + 10 }
+sub CURLINFO_HEADER_SIZE is export { 0x200000 + 11 }
+sub CURLINFO_REQUEST_SIZE is export { 0x200000 + 12 }
+sub CURLINFO_SSL_VERIFYRESULT is export { 0x200000 + 13 }
+sub CURLINFO_FILETIME is export { 0x200000 + 14 }
+sub CURLINFO_CONTENT_LENGTH_DOWNLOAD is export { 0x300000 + 15 }
+sub CURLINFO_CONTENT_LENGTH_UPLOAD is export { 0x300000 + 16 }
+sub CURLINFO_STARTTRANSFER_TIME is export { 0x300000 + 17 }
+sub CURLINFO_CONTENT_TYPE is export { 0x100000 + 18 }
+sub CURLINFO_REDIRECT_TIME is export { 0x300000 + 19 }
+sub CURLINFO_REDIRECT_COUNT is export { 0x200000 + 20 }
+sub CURLINFO_PRIVATE is export { 0x100000 + 21 }
+sub CURLINFO_HTTP_CONNECTCODE is export { 0x200000 + 22 }
+sub CURLINFO_HTTPAUTH_AVAIL is export { 0x200000 + 23 }
+sub CURLINFO_PROXYAUTH_AVAIL is export { 0x200000 + 24 }
+sub CURLINFO_OS_ERRNO is export { 0x200000 + 25 }
+sub CURLINFO_NUM_CONNECTS is export { 0x200000 + 26 }
+sub CURLINFO_SSL_ENGINES is export { 0x400000 + 27 }
+sub CURLINFO_COOKIELIST is export { 0x400000 + 28 }
+sub CURLINFO_LASTSOCKET is export { 0x200000 + 29 }
+sub CURLINFO_FTP_ENTRY_PATH is export { 0x100000 + 30 }
+sub CURLINFO_REDIRECT_URL is export { 0x100000 + 31 }
+sub CURLINFO_PRIMARY_IP is export { 0x100000 + 32 }
+sub CURLINFO_APPCONNECT_TIME is export { 0x300000 + 33 }
+sub CURLINFO_CERTINFO is export { 0x400000 + 34 }
+sub CURLINFO_CONDITION_UNMET is export { 0x200000 + 35 }
+sub CURLINFO_RTSP_SESSION_ID is export { 0x100000 + 36 }
+sub CURLINFO_RTSP_CLIENT_CSEQ is export { 0x200000 + 37 }
+sub CURLINFO_RTSP_SERVER_CSEQ is export { 0x200000 + 38 }
+sub CURLINFO_RTSP_CSEQ_RECV is export { 0x200000 + 39 }
+sub CURLINFO_PRIMARY_PORT is export { 0x200000 + 40 }
+sub CURLINFO_LOCAL_IP is export { 0x100000 + 41 }
+sub CURLINFO_LOCAL_PORT is export { 0x200000 + 42 }
+sub CURLINFO_LASTONE is export { 42 }

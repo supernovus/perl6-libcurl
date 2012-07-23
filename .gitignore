@@ -1,0 +1,7 @@
+*.swp
+*~
+blib
+/Makefile
+src/*.a
+src/*.o
+src/*.so
