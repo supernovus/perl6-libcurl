@@ -2,7 +2,7 @@
 
 use v6;
 
-module WWW::Curl::Options;
+module WWW::Curl::Constants::Options;
 
 sub CURLOPT_FILE is export { 10000 + 1 }
 sub CURLOPT_URL is export { 10000 + 2 }

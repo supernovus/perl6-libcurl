@@ -5,7 +5,7 @@ use v6;
 use Test;
 
 use WWW::Curl::Easy;
-use WWW::Curl::Options;
+use WWW::Curl::Constants::Options;
 
 my $c = WWW::Curl::Easy.new;
 

@@ -2,7 +2,7 @@
 
 use v6;
 
-module WWW::Curl::Info;
+module WWW::Curl::Constants::Info;
 
 sub CURLINFO_TEXT is export { 0 }
 sub CURLINFO_HEADER_IN is export { 1 }

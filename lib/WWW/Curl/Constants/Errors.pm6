@@ -2,7 +2,7 @@
 
 use v6;
 
-module WWW::Curl::Errors;
+module WWW::Curl::Constants::Errors;
 
 sub CURLE_OK is export { 0 }
 sub CURLE_UNSUPPORTED_PROTOCOL is export { 1 }
